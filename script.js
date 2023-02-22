@@ -88,3 +88,13 @@ function accessElement(a) {
 }
 
 arr.forEach(accessElement);
+
+// map
+
+function cb(a) {
+  return a;
+}
+
+const arr1 = arr.map(cb);
+
+console.log(arr1);
