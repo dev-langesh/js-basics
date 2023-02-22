@@ -108,6 +108,8 @@ const submit = document.getElementById("submit");
 function handleSubmitEvent(e) {
   e.preventDefault();
 
+  console.log(name.value);
+
   console.log("submit button called");
 }
 
