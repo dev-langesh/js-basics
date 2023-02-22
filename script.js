@@ -57,10 +57,34 @@ let arrow = (a, b) => {
 
 arrow(10, 20);
 
-// anonymous function
+// anonymunction
 
 let b;
 
 (() => {
   console.log("anonymous");
 })();
+
+// callback function
+
+function callback() {
+  console.log("callback");
+}
+
+function caller(cb) {
+  // some buildin features
+
+  cb();
+}
+
+caller(callback);
+
+// array functions
+
+// foreach
+
+function accessElement(a) {
+  console.log(a);
+}
+
+arr.forEach(accessElement);
