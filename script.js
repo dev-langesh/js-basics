@@ -98,3 +98,17 @@ function cb(a) {
 const arr1 = arr.map(cb);
 
 console.log(arr1);
+
+// DOM
+
+const name = document.getElementById("name");
+
+const submit = document.getElementById("submit");
+
+function handleSubmitEvent(e) {
+  e.preventDefault();
+
+  console.log("submit button called");
+}
+
+submit.addEventListener("click", handleSubmitEvent);
