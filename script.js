@@ -35,3 +35,32 @@ while (j < 2) {
   console.log("while");
   j++;
 }
+
+// functions
+function fun() {
+  console.log("have fun");
+}
+
+fun();
+
+function welcome(name) {
+  console.log(name);
+}
+
+welcome("langesh");
+
+// arrow functions
+
+let arrow = (a, b) => {
+  console.log(a, b);
+};
+
+arrow(10, 20);
+
+// anonymous function
+
+let b;
+
+(() => {
+  console.log("anonymous");
+})();
